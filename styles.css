@@ -1,0 +1,108 @@
+body, ul, li, body, h1, h2 a{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(128, 128, 128, 0.384);
+}
+
+
+
+header{
+    background-color: rgba(48, 44, 44, 0.527);
+    
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 0px;
+}
+header h1{
+    
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+banner{
+    position: relative;
+}
+.banner img{
+    
+    width: 105%;
+}
+div{
+    color: whitesmoke;
+    padding: 30px;
+    position: absolute;
+    right: 44%;
+    top: 15%;
+}
+.banner h2{
+    font-size:45px ;
+}
+.banner span{
+    font-size: 0.7em;
+}
+nav {
+    background-color: rgba(48, 44, 44, 0.527);
+    width: 100%;
+    padding: 20px;
+    position: sticky;
+    top: 56px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav li{
+    width: 33%;
+    display: inline-block;
+    font-size: 36px;
+}
+nav li a{
+    text-decoration: none;
+    color:antiquewhite; 
+     
+}
+main{
+    max-width: 100%;
+    width: 1000px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color:whitesmoke;
+    font-size: 56px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(104, 104, 104);
+
+}
+article p{
+    line-height: 2em;
+    color: rgb(95, 95, 95);
+    font-size: 35px;
+    
+}
+.skills{
+    font-size: 35px;
+    color: whitesmoke;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    background-color: none;
+}
+h3 {
+    color:whitesmoke;
+    font-size: 36px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(104, 104, 104);
+}
+footer{
+    text-align: center;
+}
